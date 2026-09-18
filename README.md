@@ -1,16 +1,105 @@
-# React + Vite
+# ☕ Knowledge Cafe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Knowledge Cafe is a responsive blog-reading application built with **React.js**. Users can browse different blogs, bookmark their favorite blogs, and keep track of their total reading time.
 
-Currently, two official plugins are available:
+## 🚀 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Knowledge Cafe](https://ahasanulhaque-knowledge-cafe.surge.sh)
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript
+* Tailwind CSS
+* React Icons
+* Vite
+* Surge
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 📚 Browse multiple blog posts
+* 🔖 Bookmark blogs
+* ❤️ Bookmark icon changes color when clicked
+* ⏱️ Track total reading time
+* 📌 Display bookmarked blogs
+* 👤 Show author information
+* 🏷️ Display blog hashtags
+* 📱 Responsive design
+* ⚡ Fast and interactive React UI
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Blog/
+│   │   └── Blog.jsx
+│   ├── Blogs/
+│   │   └── Blogs.jsx
+│   ├── Bookmark/
+│   │   └── Bookmark.jsx
+│   ├── Bookmarks/
+│   │   └── Bookmarks.jsx
+│   └── Header/
+│       └── Header.jsx
+│
+├── App.jsx
+├── App.css
+└── main.jsx
+
+public/
+└── blogs.json
+```
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ahasanulhaqueasad/knowledge-cafe.git
+```
+
+Go to the project directory:
+
+```bash
+cd knowledge-cafe
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🏗️ Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+The production files will be generated inside the `dist` folder.
+
+## 🌐 Deploy with Surge
+
+```bash
+npm run build
+surge dist your-domain.surge.sh
+```
+
+## 👨‍💻 Author
+
+**Md Ahasanul Haque Ashad**
+
+* GitHub: [ahasanulhaqueasad](https://github.com/ahasanulhaqueasad)
+
+---
+
+⭐ If you like this project, consider giving it a star!
