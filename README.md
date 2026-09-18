@@ -4,7 +4,7 @@ Knowledge Cafe is a responsive blog-reading application built with **React.js**.
 
 ## 🚀 Live Website
 
-[Knowledge Cafe](https://ahasanulhaque-knowledge-cafe.surge.sh)
+[Knowledge Cafe](https://knowledge-cafe-lake.vercel.app/)
 
 ## 🛠️ Technologies Used
 
