@@ -51,49 +51,6 @@ public/
 └── blogs.json
 ```
 
-## 📦 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/ahasanulhaqueasad/knowledge-cafe.git
-```
-
-Go to the project directory:
-
-```bash
-cd knowledge-cafe
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-## 🏗️ Build
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-The production files will be generated inside the `dist` folder.
-
-## 🌐 Deploy with Surge
-
-```bash
-npm run build
-surge dist your-domain.surge.sh
-```
-
 ## 👨‍💻 Author
 
 **Md Ahasanul Haque Ashad**
