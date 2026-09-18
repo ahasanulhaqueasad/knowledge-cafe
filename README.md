@@ -13,7 +13,7 @@ Knowledge Cafe is a responsive blog-reading application built with **React.js**.
 * Tailwind CSS
 * React Icons
 * Vite
-* Surge
+* Vercel
 
 ## ✨ Features
 
